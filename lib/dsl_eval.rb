@@ -1,5 +1,5 @@
 module Robotnik
-  module DslHelper
+  module DslEval
     
     def evaluate &block
       @previous_self = eval 'self', block.binding
