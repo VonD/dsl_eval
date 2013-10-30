@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "dsl_eval"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Paul Vonderscher"]
   spec.email         = ["paul.vonderscher@gmail.com"]
   spec.description   = "Simple helpers to write DSLs"
